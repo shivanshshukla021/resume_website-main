@@ -4,7 +4,9 @@
   margin-left: 0;
   margin-bottom: 0;
 ;*/
-  position: relative;
+ position: relative;
+  border: 20px solid black;
+  height: 800px; 
   /*beacuse cloud absolut hai and if we don't make .top-container "relative" then cloud wala element will be relative to
 "body"
 sar- Now in order to position it relative to something, one of its parents has to have its position set as
@@ -16,25 +18,25 @@ And if we don't then it will be relative to the body.
 So in our case I want us to be able to position our bottom cloud relative to this entire top container.
 
 So I'm going to set the position of our top container to relative.*/
-  padding-top: 100px;
+
 }
 
 .top-cloud {
   position: absolute;
-  top: 50px;
-  right: 300px;
+  
+
 }
 
 .bottom-cloud {
   position: absolute;
-  bottom: 300px;
-  left: 300px;
+
+ 
 }
 
 p {
   /*same reason default ko zero karne ke liye*/
   margin: 0;
-  line-height: 2;
+
 }
 
 
@@ -64,13 +66,13 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 5.62rem;
+  
   color: #0b0b0b
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
+  
   color: #000000;
   margin-top: 0;
   font-weight: normal;
@@ -97,7 +99,7 @@ a:hover{
   /*width:50%;
   margin:auto;*/
   display: inline-block;
-  width: 50%;
+  width: 90%;
   margin: 50px auto 50px auto;
   line-height: 2;
   text-align: left;
@@ -135,7 +137,7 @@ a:hover{
   padding-top: 0px;
 }
 .intro{
-  width:40%;
+  
 /*  text-align: center;- this will not work because width is specified so using 'margin:0 auto to make it in centre'*/
   margin: 0 auto;
   color: #40514E;
@@ -179,8 +181,12 @@ padding-bottom: 100px;
   text-decoration: none;
 }
 .middle-container{
-  margin: 100px auto;
+
   background-color: #40514e4d;
+  border: 20 px solid black;
+  position: relative;
+  border: 20px solid black;
+  height: 800px; 
 }
 
 
@@ -212,4 +218,18 @@ padding-bottom: 100px;
 }
 h2 a{
   color: black;
+}
+.do{
+  background-color: #1c6785;
+  border: 20px solid black;
+}
+.ski{
+  background-color: #0b52455a; 
+   border: 20px solid black;
+}
+.pro{
+  background-color: bisque;  border: 20px solid black;
+}
+.in{
+  border: 20px solid black;
 }
